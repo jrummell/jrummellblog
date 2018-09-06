@@ -1,6 +1,6 @@
 ---
 permalink: /steam-achievements-a-facebook-app-built-with-wcf-and-jquery
-title: Steam Achievements: A Facebook app built with WCF and jQuery
+title: Steam Achievements - A Facebook app built with WCF and jQuery
 date: 2015-09-15 17:05:12
 published: true
 tags: facebook-steam-achievements
