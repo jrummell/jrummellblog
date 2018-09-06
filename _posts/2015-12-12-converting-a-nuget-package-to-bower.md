@@ -1,5 +1,5 @@
 ---
-permalink: /converting-a-nuget-package-to-bower
+permalink: converting-a-nuget-package-to-bower
 title: Converting a nuget package to Bower 
 layout: post
 date: 2015-12-12 01:06:35
