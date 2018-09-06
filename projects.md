@@ -1,6 +1,7 @@
 ---
 permalink: /projects
-title: Open Source
+title: Open Source 
+layout: post
 date: 2010-12-13 15:08:36
 published: true
 tags: 

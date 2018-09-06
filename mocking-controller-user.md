@@ -1,6 +1,7 @@
 ---
 permalink: /mocking-controller-user
-title: Mocking Controller.User
+title: Mocking Controller.User 
+layout: post
 date: 2009-09-17 21:26:42
 published: true
 tags: testing

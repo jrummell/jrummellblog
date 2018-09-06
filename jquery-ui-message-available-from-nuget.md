@@ -1,6 +1,7 @@
 ---
 permalink: /jquery-ui-message-available-from-nuget
-title: jQuery UI Message available from Nuget
+title: jQuery UI Message available from Nuget 
+layout: post
 date: 2011-06-13 19:26:15
 published: true
 tags: jquery-message

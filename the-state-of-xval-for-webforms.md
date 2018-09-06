@@ -1,6 +1,7 @@
 ---
 permalink: /the-state-of-xval-for-webforms
-title: The State of xVal for WebForms
+title: The State of xVal for WebForms 
+layout: post
 date: 2011-03-06 16:19:05
 published: true
 tags: validation xval-webforms

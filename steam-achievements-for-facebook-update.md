@@ -1,6 +1,7 @@
 ---
 permalink: /steam-achievements-for-facebook-update
-title: Steam Achievements for Facebook Update
+title: Steam Achievements for Facebook Update 
+layout: post
 date: 2014-04-03 17:43:57
 published: true
 tags: facebook-steam-achievements

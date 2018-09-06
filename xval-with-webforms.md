@@ -1,6 +1,7 @@
 ---
 permalink: /xval-with-webforms
-title: xVal with WebForms
+title: xVal with WebForms 
+layout: post
 date: 2009-07-15 22:32:00
 published: true
 tags: validation xval-webforms

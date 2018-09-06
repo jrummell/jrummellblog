@@ -1,6 +1,7 @@
 ---
 permalink: /i-moved-to-wordpress
-title: I moved to WordPress
+title: I moved to WordPress 
+layout: post
 date: 2010-12-30 14:30:28
 published: true
 tags: blogging

@@ -1,6 +1,7 @@
 ---
 permalink: /iis-express-and-visual-studio-2010-without-sp1
-title: IIS Express and Visual Studio 2010 without SP1
+title: IIS Express and Visual Studio 2010 without SP1 
+layout: post
 date: 2011-03-01 16:20:07
 published: true
 tags: iis

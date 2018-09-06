@@ -1,6 +1,7 @@
 ---
 permalink: /send-a-completed-form-email-without-a-stringbuilder
-title: Send a Completed Form Email Without a StringBuilder
+title: Send a Completed Form Email Without a StringBuilder 
+layout: post
 date: 2009-06-29 23:09:00
 published: true
 tags: 

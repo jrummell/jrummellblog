@@ -1,6 +1,7 @@
 ---
 permalink: /moving-from-wordpress-to-ghost
-title: Moving from WordPress to Ghost
+title: Moving from WordPress to Ghost 
+layout: post
 date: 2015-09-07 15:59:01
 published: true
 tags: blogging

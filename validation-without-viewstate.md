@@ -1,6 +1,7 @@
 ---
 permalink: /validation-without-viewstate
-title: Validation without ViewState
+title: Validation without ViewState 
+layout: post
 date: 2010-06-01 14:35:21
 published: true
 tags: validation

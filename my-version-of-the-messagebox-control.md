@@ -1,6 +1,7 @@
 ---
 permalink: /my-version-of-the-messagebox-control
-title: My version of the MessageBox control
+title: My version of the MessageBox control 
+layout: post
 date: 2008-07-09 14:46:00
 published: true
 tags: 

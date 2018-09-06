@@ -1,6 +1,7 @@
 ---
 permalink: /xval-for-webforms-without-xval
-title: xVal for WebForms without xVal
+title: xVal for WebForms without xVal 
+layout: post
 date: 2011-06-05 23:23:44
 published: true
 tags: xval-webforms
