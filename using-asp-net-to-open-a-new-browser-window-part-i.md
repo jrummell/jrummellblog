@@ -5,6 +5,7 @@ I recently needed to add a ‘pop-up’ window to a website. Now I’m not a fan
 
 I created a static helper class that contains the following method. I also provided some methods that overload this, but you get the idea.
 
+{% raw %}
 ``` csharp
     public static void RegisterOpenWindowScript(Page page, string key, string url, WindowName name, int width,
         int height, int left, int top, bool location, bool menubar, bool resizable, bool scrollbars, bool status,
@@ -21,6 +22,7 @@ I created a static helper class that contains the following method. I also provi
         }
     }
 ```
+{% endraw %}
 
 WindowName is an enum that defines the possible window names: _blank, _parent, _self, _top. GetInt() simply returns 1 if true and 0 if false.
 

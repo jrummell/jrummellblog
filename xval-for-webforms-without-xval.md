@@ -12,6 +12,8 @@ I’ve been working on [xVal for WebForms](http://xvalwebforms.codeplex.com/) wi
 
 I finally decided to implement JavaScriptConverter, which is used with JavaScriptSerializer. The Serialize method is what takes the Rule collection and converts it into two separate dictionaries, one for rules and one for messages. This allows the JavaScriptSerializer to properly serialize the dictionaries for the add method options parameter.
 
+{% raw %}
+``` csharp
    public class RulesJavaScriptConverter : JavaScriptConverter
    {
       private readonly ReadOnlyCollection<Type> _supportedTypes =
@@ -51,9 +53,12 @@ I finally decided to implement JavaScriptConverter, which is used with JavaScrip
           return result;
       }
     }
+```
+{% endraw %}
 
 And here’s how I’m using it.
 
+``` csharp
     StringBuilder validationOptionsScript = new StringBuilder();
     validationOptionsScript.AppendFormat("$('#{0}').rules('add', ", _controlToValidateId);
 
@@ -62,5 +67,6 @@ And here’s how I’m using it.
     serializer.Serialize(rules, validationOptionsScript);
 
     validationOptionsScript.AppendLine(");");
+```
 
 The next step will be figuring out validation groups. I also plan on renaming the project. My best idea so far is jQuery Validate.NET. It’s not the most creative, but it gets the point across.
