@@ -1,4 +1,10 @@
-# MessageBox - The jQuery Plugin
+---
+permalink: /messagebox-the-jquery-plugin
+title: MessageBox - The jQuery Plugin
+date: 2011-03-14 15:08:34
+published: true
+tags: jquery jquery-message javascript
+---
 
 
 Now that I’ve been working more and more with ASP.NET MVC, I’ve been rewriting some of my server side controls with jQuery plugins. A while back I shared [my version](http://www.jrummell.com/blog/index.php/2008/07/my-version-of-the-messagebox-control/ "My version of the MessageBox control") of Janko’s popular [MessageBox control](http://www.jankoatwarpspeed.com/post/2008/05/28/Create-MessageBox-user-control-using-ASPNET-and-CSS.aspx). I’ve created a similar effect with a jQuery plugin based on the Highlight/Error examples on the jQuery UI [Themes page](http://jqueryui.com/themeroller/).

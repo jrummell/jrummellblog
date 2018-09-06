@@ -1,4 +1,10 @@
-# Using ASP.Net to open a new browser window – Part I
+---
+permalink: /using-asp-net-to-open-a-new-browser-window-part-i
+title: Using ASP.Net to open a new browser window – Part I
+date: 2007-02-19 23:15:00
+published: true
+tags: javascript
+---
 
 
 I recently needed to add a ‘pop-up’ window to a website. Now I’m not a fan of javascript, never have been. I like my code to be type safe and compile. So I came up with a C# helper class to do the dirty work for me. I must give credit to where I found the idea. I saw something like this in Chapter 4 of <span style="font-style: italic;">Developing Web Applications with Microsoft VB .Net and VC#</span> .Net by Jeff Webb and MS Corp. In this book they create BrowserWindow class and use it inside some javascript. I’ve take a different approach, so that I can avoid having to write the javascript in the future.

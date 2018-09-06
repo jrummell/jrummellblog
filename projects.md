@@ -1,4 +1,10 @@
-# Open Source
+---
+permalink: /projects
+title: Open Source
+date: 2010-12-13 15:08:36
+published: true
+tags: 
+---
 
 ### jQuery Message Plugins
 

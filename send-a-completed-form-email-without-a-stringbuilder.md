@@ -1,4 +1,10 @@
-# Send a Completed Form Email Without a StringBuilder
+---
+permalink: /send-a-completed-form-email-without-a-stringbuilder
+title: Send a Completed Form Email Without a StringBuilder
+date: 2009-06-29 23:09:00
+published: true
+tags: 
+---
 
 
  Have you ever had to create a large web form for users to fill out and then receive an email copy after its submitted? That can be tedious work. The first few times I did it, I used a [StringBuilder](http://msdn.microsoft.com/en-us/library/system.text.stringbuilder.aspx) to build the email HTML one control at a time. Later, I viewed the HTML output of the page and replaced all input controls with spans, and then put that HTML in a StringBuilder. Either of these methods work, but it gets real annoying when I later have to add a field or two to the form and therefore to the email HTML.

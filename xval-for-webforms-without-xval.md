@@ -1,4 +1,10 @@
-# xVal for WebForms without xVal
+---
+permalink: /xval-for-webforms-without-xval
+title: xVal for WebForms without xVal
+date: 2011-06-05 23:23:44
+published: true
+tags: xval-webforms
+---
 
 
 I’ve been working on [xVal for WebForms](http://xvalwebforms.codeplex.com/) without xVal in the [jQuery.Validate](http://xvalwebforms.codeplex.com/SourceControl/list/changesets?branch=jQuery.Validate) branch. So far I’ve got basic server and client side validation for most data annotations validation attributes and server side validation for [IValidatableObject](http://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.ivalidatableobject.aspx) implementers. The only challenging part so far was understanding how to serialize the validation rules for the jQuery Validate [add method](http://docs.jquery.com/Plugins/Validation/rules).

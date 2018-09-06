@@ -1,4 +1,10 @@
-# A SiteMapProvider for Static Web Sites
+---
+permalink: /a-sitemapprovider-for-static-web-sites
+title: A SiteMapProvider for Static Web Sites
+date: 2007-08-03 20:34:00
+published: true
+tags: 
+---
 
 
 The new navigation features of ASP.Net 2.0 are pretty cool. If you haven’t seen them yet, check out [ScottGu’s blog](http://weblogs.asp.net/scottgu/archive/2006/02/14/438241.aspx) for more information.

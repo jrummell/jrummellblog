@@ -1,4 +1,10 @@
-# SQL Server Management Studio and TortoiseSVN
+---
+permalink: /sql-server-management-studio-and-tortoisesvn
+title: SQL Server Management Studio and TortoiseSVN
+date: 2009-11-18 23:23:17
+published: true
+tags: SQL svn
+---
 
 
 **Update**: SQL Source Control was released a while back! See my article on [Simple-Talk](http://www.simple-talk.com/sql/sql-tools/sql-source-control---no-more-database-development-without-it/) for more information.

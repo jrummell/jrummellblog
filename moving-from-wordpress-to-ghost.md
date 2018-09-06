@@ -1,4 +1,10 @@
-# Moving from WordPress to Ghost
+---
+permalink: /moving-from-wordpress-to-ghost
+title: Moving from WordPress to Ghost
+date: 2015-09-07 15:59:01
+published: true
+tags: blogging
+---
 
 I recently moved my blog from WordPress to Ghost. The Ghost installation was breeze thanks to [Ghost Azure](https://github.com/AzureWebApps/Ghost-Azure), as shared by [Scott Hanselman](http://www.hanselman.com/blog/UPDATEDFor2015HowToInstallTheNodejsGhostBlogSoftwareOnAzureWebAppsAndTheDeployToAzureButton.aspx).
 

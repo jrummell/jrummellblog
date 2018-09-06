@@ -1,4 +1,10 @@
-# Confluence Universal Wiki Converter (UWC) for ScrewTurn
+---
+permalink: /confluence-universal-wiki-converter-uwc-for-screwturn
+title: Confluence Universal Wiki Converter (UWC) for ScrewTurn
+date: 2010-09-02 10:44:46
+published: true
+tags: confluence-uwc wiki
+---
 
 
 My [company](http://www.beldenbrick.com) recently started a corporate wiki. We initially used [ScrewTurn](http://www.screwturn.eu/), an excellent open source ASP.NET application. It worked great for our department, but it wasn’t taking off for the rest of the company. Non-technical users just couldn’t get wiki markup and weren’t able to manage edits with the visual editor. So we turned to [Confluence](http://www.atlassian.com/software/confluence/), an enterprise class commercial wiki. I won’t get into a feature comparison here. There are plenty of [other](http://www.wikimatrix.org/) [sites](http://en.wikipedia.org/wiki/Comparison_of_wiki_software) devoted to that.

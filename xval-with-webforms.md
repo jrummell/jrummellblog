@@ -1,4 +1,10 @@
-# xVal with WebForms
+---
+permalink: /xval-with-webforms
+title: xVal with WebForms
+date: 2009-07-15 22:32:00
+published: true
+tags: validation xval-webforms
+---
 
 
 **Update**: See [xVal with WebForms Part 2](http://john.rummell.info/john/blog/post/xVal-with-WebForms-Part-2.aspx) for a better implementation.

@@ -1,4 +1,10 @@
-# Converting DateTime to String and back
+---
+permalink: /converting-datetime-to-string-and-back
+title: Converting DateTime to String and back
+date: 2007-05-21 11:32:00
+published: true
+tags: 
+---
 
 
 I spent about 20 frustrating minutes the other day wondering why a sql  

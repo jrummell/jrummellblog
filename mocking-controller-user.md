@@ -1,4 +1,10 @@
-# Mocking Controller.User
+---
+permalink: /mocking-controller-user
+title: Mocking Controller.User
+date: 2009-09-17 21:26:42
+published: true
+tags: testing
+---
 
 
 I’m currently working on my first [ASP.NET MVC](http://www.asp.net/mvc/) project. Naturally, I’m writing a good number of unit tests. I ran into a problem tonight with mocking [Controller.User](http://msdn.microsoft.com/en-us/library/system.web.mvc.controller.user.aspx). Thankfully, someone at [Stack Overflow](http://stackoverflow.com/) had already asked a [question about this](http://stackoverflow.com/questions/1314370/how-to-setup-iprincipal-for-a-mockup). I took [Bruno Reis’ answer](http://stackoverflow.com/questions/1314370/how-to-setup-iprincipal-for-a-mockup/1314472#1314472):

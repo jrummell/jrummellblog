@@ -1,4 +1,10 @@
-# Announcement: Control Alt Development
+---
+permalink: /announcement-control-alt-development
+title: Announcement: Control Alt Development
+date: 2014-07-14 20:28:31
+published: true
+tags: 
+---
 
 
 [![Control Alt Development](http://res.cloudinary.com/jrummell/image/upload/v1437489225/logo-1600x619_wbpvzl.png)](http://www.ctrlaltdevelopment.com/)

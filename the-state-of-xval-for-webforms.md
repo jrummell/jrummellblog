@@ -1,4 +1,10 @@
-# The State of xVal for WebForms
+---
+permalink: /the-state-of-xval-for-webforms
+title: The State of xVal for WebForms
+date: 2011-03-06 16:19:05
+published: true
+tags: validation xval-webforms
+---
 
 
 I’ve been neglecting [xVal for WebForms](http://xvalwebforms.codeplex.com/) for a while now, mainly because I’m not sure which direction to take it. The [xVal](http://xval.codeplex.com/) project is now deprecated in favor of the client side validation support introduced in ASP.NET MVC 2. This is obviously a problem since xVal for WebForms is built on top of xVal.

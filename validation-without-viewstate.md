@@ -1,4 +1,10 @@
-# Validation without ViewState
+---
+permalink: /validation-without-viewstate
+title: Validation without ViewState
+date: 2010-06-01 14:35:21
+published: true
+tags: validation
+---
 
 
 I ran into an issue today where I needed to validate a few controls without [ViewState](http://msdn.microsoft.com/en-us/library/system.web.ui.control.viewstate.aspx). These were drop down lists whose items were added from the returned value of a [WebService](http://msdn.microsoft.com/en-us/library/t745kdsh.aspx).

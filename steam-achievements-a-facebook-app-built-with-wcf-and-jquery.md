@@ -1,4 +1,10 @@
-# Steam Achievements: A Facebook app built with WCF and jQuery
+---
+permalink: /steam-achievements-a-facebook-app-built-with-wcf-and-jquery
+title: Steam Achievements: A Facebook app built with WCF and jQuery
+date: 2015-09-15 17:05:12
+published: true
+tags: facebook-steam-achievements
+---
 
 I’ve been wanting to create a Facebook app for a while now, but I didn’t have time or a need to fill. I took some time off over the last week and I was able to come up with both. I’m avid PC gamer and most of my games are on Valve’s Steam platform. Steam has achievements for some of its biggest newer games like Left 4 Dead and Team Fortress 2. They are much like the Xbox 360 and PS3 achievements. But unlike the Xbox and PS3, there wasn’t a Facebook app that notifies your friends with your latest achievements. There was an app that worked great for a while back, but its now broken (and still using the steamachievements url suffix!).
 

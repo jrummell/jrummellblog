@@ -1,4 +1,10 @@
-# My version of the MessageBox control
+---
+permalink: /my-version-of-the-messagebox-control
+title: My version of the MessageBox control
+date: 2008-07-09 14:46:00
+published: true
+tags: 
+---
 
 
 **Update**: I fixed a couple issues and updated the zip file below.

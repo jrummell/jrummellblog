@@ -1,4 +1,10 @@
-# WinHost, Sub-Domains, and IIS 7 URL Rewrite
+---
+permalink: /winhost-sub-domains-and-iis-7-url-rewrite
+title: WinHost, Sub-Domains, and IIS 7 URL Rewrite
+date: 2010-04-24 18:31:40
+published: true
+tags: iis
+---
 
 I switched my web host from GoDaddy to WinHost this week. I only I ran into two issues. The first was how WinHost handles sub-domains. GoDaddy’s sub-domains point to a sub folder of the same name, e.g. http://sub.example.com points to \sub. You can then access sub-domain content from http://sub.example.com/abc or http://sub.example.com/sub/abc. There is no way that I could find to enforce either /abc or /sub/abc and often after arriving to the site via /abc you would be linked to /sub/abc.
 

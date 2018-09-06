@@ -1,4 +1,10 @@
-# Apply the same CSS class to all validators in a web project
+---
+permalink: /apply-the-same-css-class-to-all-validators-in-a-web-project
+title: Apply the same CSS class to all validators in a web project
+date: 2009-08-16 14:33:01
+published: true
+tags: css validation
+---
 
 
 I recently had to add a CSS class to all validators in an ASP.NET web application. I started with the theme’s [skin](http://msdn.microsoft.com/en-us/library/ykzx33wh.aspx) file:

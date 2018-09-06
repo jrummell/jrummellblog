@@ -1,4 +1,10 @@
-# IIS Express and Visual Studio 2010 without SP1
+---
+permalink: /iis-express-and-visual-studio-2010-without-sp1
+title: IIS Express and Visual Studio 2010 without SP1
+date: 2011-03-01 16:20:07
+published: true
+tags: iis
+---
 
 
 Here’s how you can integrate [IIS Express](http://learn.iis.net/page.aspx/868/iis-express-overview/) with Visual Studio 2010 without SP1. I’m taking advantage of External Tools again. There are two very simple ways to run IIS Express from the [command line](http://learn.iis.net/page.aspx/870/running-iis-express-from-the-command-line/). The first is to pass the web project path:

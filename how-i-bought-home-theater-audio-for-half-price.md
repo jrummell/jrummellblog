@@ -1,4 +1,10 @@
-# How I bought home theater audio for half price
+---
+permalink: /how-i-bought-home-theater-audio-for-half-price
+title: How I bought home theater audio for half price
+date: 2012-03-04 16:02:45
+published: true
+tags: home-theater
+---
 
 
 I’m taking a break from web development topics today to talk about one of my other interests: home theater. It all started when I saw a pair of [Pioneer bookshelf speakers on woot!](http://www.woot.com/Blog/ViewEntry.aspx?Id=19729) for half the retail price. A few years back, I bought an all in one surround/DVD player/receiver. It was one of the few times that I didn’t do a lot of research before making an electronics purchase. Being somewhat of an audiophile, I was never happy with it. It worked, but the sound wasn’t crystal clear and there was very little bass. Fast forward to this past winter when I saw that pair of bookshelf speakers on woot!. Pioneer had always treated me well for car audio, so I was interested. I read tons of reviews, checked prices on Amazon.com (my online retailer of choice), and decided to make the purchase.

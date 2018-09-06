@@ -1,4 +1,10 @@
-# Steam Achievements for Facebook Update
+---
+permalink: /steam-achievements-for-facebook-update
+title: Steam Achievements for Facebook Update
+date: 2014-04-03 17:43:57
+published: true
+tags: facebook-steam-achievements
+---
 
 
 A few years ago I wanted to create a Facebook application. I chose to develop an [app that integrated with the Steam Community API](http://www.jrummell.com/blog/index.php/2009/12/steam-achievements-a-facebook-app-built-with-wcf-and-jquery/ "Steam Achievements: A Facebook app built with WCF and jQuery"). It was a fantastic learning experience where I was able gain valuable javascript and ajax experience I wasn’t getting at my day job. Later, I converted from ASP.NET Web Forms to ASP.NET MVC. This again was something I wasn’t exposed to at my day job.

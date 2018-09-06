@@ -1,4 +1,10 @@
-# Google Chrome has Extensions
+---
+permalink: /google-chrome-has-extensions
+title: Google Chrome has Extensions
+date: 2010-01-26 18:14:00
+published: true
+tags: 
+---
 
 
 I’ve been using Google Chrome a lot more for casual browsing lately. I continue to use Firefox with Firebug for web development tasks, but for social networking and email I use Chrome. Perhaps its because I have loaded down Firefox with too many extensions, but I can’t get over how much faster Chrome is. And the latest beta (version 4) now supports extensions. So far I’ve added five extensions and I haven’t noticed a difference in speed.

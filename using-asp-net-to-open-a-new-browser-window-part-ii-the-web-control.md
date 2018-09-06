@@ -1,4 +1,11 @@
-# Using ASP.Net to open a new browser window – Part II, the web control
+---
+permalink: /using-asp-net-to-open-a-new-browser-window-part-ii-the-web-control
+title: Using ASP.Net to open a new browser window – Part II, the web control
+date: 2007-02-20 13:24:00
+published: true
+tags: javascript
+---
+
 
 
 This a follow up to my previous post, [Using ASP.Net to open a new browser window – Part I](http://www.jrummell.com/blog/index.php/2007/02/using-asp-net-to-open-a-new-browser-window-part-i/ "Using ASP.Net to open a new browser window – Part I").  

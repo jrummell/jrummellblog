@@ -1,4 +1,10 @@
-# jQuery/ASP.Net AJAX 1.0/3.5 gotcha
+---
+permalink: /jqueryasp-net-ajax-1-03-5-gotcha
+title: jQuery/ASP.Net AJAX 1.0/3.5 gotcha
+date: 2008-12-18 22:39:00
+published: true
+tags: javascript
+---
 
 Update: If you are curious as to why MS added the .d attribute, find out why at [Encosia](http://encosia.com/2009/02/10/a-breaking-change-between-versions-of-aspnet-ajax/).
 
