@@ -1,3 +1,5 @@
+# Converting a nuget package to Bower
+
 If you're an ASP.NET developer like me, you've come to know and love NuGet as your go to resource for managing external libraries. It has everything from ASP.NET MVC and Entity Framework, to jQuery and bootstrap. You may have heard that Visual Studio 2015 has [out of the box support](https://msdn.microsoft.com/en-us/magazine/mt573714.aspx) for [Bower](http://bower.io/), a client side package manager for the web. It seems that Bower (and NPM) is what everyone else outside of the Microsoft ecosystem has been using for a while now, and Visual Studio is finally catching up.
 
 I have a handful of open source projects on nuget.org, and some of them are client side web libraries. Recently I converted one to bower. This post will demonstrate the differences I've found between the two package managers and show you how to create a bower package from an existing nuget package.
