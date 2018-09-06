@@ -1,6 +1,6 @@
 ---
 permalink: /announcement-control-alt-development
-title: Announcement: Control Alt Development
+title: Announcement - Control Alt Development
 date: 2014-07-14 20:28:31
 published: true
 tags: 
