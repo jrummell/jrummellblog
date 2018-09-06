@@ -38,7 +38,7 @@ Why do I need a **DefaultDocuments**
 
 On to the code. I’ve included the main parts of the class below. For a full listing, use the link at the end of this post.
 
-public override SiteMapNode BuildSiteMap()
+    public override SiteMapNode BuildSiteMap()
     {
         lock (this)
         {
