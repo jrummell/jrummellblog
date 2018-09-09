@@ -6,7 +6,7 @@ comments: true
 twitter_username: jrummell
 github_username:  jrumell
 page_paths:
-  - index.md
+  - archive.md
   - projects.md
 disqus:
   - shortname: jrummell
