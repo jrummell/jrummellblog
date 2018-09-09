@@ -14,9 +14,9 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}
     </p>
-    {%- if page.tags && page.tags.length > 0 -%}
+    {%- if page.tags.length > 0 -%}
     <div itemprop="tags">
-      {{page.tags}}
+      {{ page.tags }}
     </div>
     {%- endif -%}
   </header>
@@ -25,7 +25,7 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
+  {%- if site.disqus_shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
