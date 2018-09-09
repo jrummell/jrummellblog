@@ -5,11 +5,8 @@ google_analytics: UA-20232883-1
 comments: true
 twitter_username: jrummell
 github_username:  jrumell
-page_paths:
-  - archive.md
-  - projects.md
-disqus:
-  shortname: jrummell
+page_paths: [archive.md, projects.md]
+disqus_shortname: jrummell
 defaults:
   -
     scope:
