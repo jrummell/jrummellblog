@@ -17,6 +17,7 @@ For syntax highlighting I used [highlight.js as described here](http://massimili
 
 Now that the content was ready to go, I needed to redirect the wordpress fromat urls to the ghost format. In wordpress I was using `/blog/year/month/post-title`, while ghost uses `/post-title/`. URL Rewrite to the rescue! Well, mostly.
 
+``` xml
     <rule name="wordpress to ghost - posts" stopProcessing="true">
         <match url="^blog/(index\.php/)?\d+/\d+/([\w\-]+)/?" />
         <action type="Redirect" url="{R:2}" />
@@ -29,6 +30,7 @@ Now that the content was ready to go, I needed to redirect the wordpress fromat 
         <match url="^blog/?" />
         <action type="Redirect" url="/" />
     </rule>
+```
 
 The first rule redirects all posts, the second pages, and the third redirects `/blog` to `/`, since my old site ran in a virtual directory and ghost does not.
 
@@ -38,7 +40,9 @@ The first rule works just fine for urls such as `http://www.jrummell.com/blog/20
 
 Thanks to Ryan Joy on stackoverflow, I got the posts rule working. Here's the correct regex that escapes forward slashes:
 
+``` xml
     <rule name="wordpress to ghost - posts" stopProcessing="true">
         <match url="^blog\/(index\.php\/)?\d+\/\d+\/([\w\-]+)\/?" />
         <action type="Redirect" url="{R:2}" />
     </rule>
+```

@@ -10,6 +10,7 @@ tags: testing
 
 I’m currently working on my first [ASP.NET MVC](http://www.asp.net/mvc/) project. Naturally, I’m writing a good number of unit tests. I ran into a problem tonight with mocking [Controller.User](http://msdn.microsoft.com/en-us/library/system.web.mvc.controller.user.aspx). Thankfully, someone at [Stack Overflow](http://stackoverflow.com/) had already asked a [question about this](http://stackoverflow.com/questions/1314370/how-to-setup-iprincipal-for-a-mockup). I took [Bruno Reis’ answer](http://stackoverflow.com/questions/1314370/how-to-setup-iprincipal-for-a-mockup/1314472#1314472):
 
+``` csharp
     var principal = new Moq.Mock<IPrincipal>();
     // ... mock IPrincipal as you wish
     
@@ -23,9 +24,11 @@ I’m currently working on my first [ASP.NET MVC](http://www.asp.net/mvc/) proje
     var controller = new MyController();
     controller.ControllerContext =
         new ControllerContext(reqContext, controller);
+```
 
 and I rewrote it using NUnit.Mocks and wrapped it into an implementation of HttpContextBase:
 
+``` csharp
     /// <summary>
     /// A mock <see cref="HttpContextBase"/> that implements <see cref="HttpContextBase.User"/>.
     /// </summary>
@@ -50,12 +53,15 @@ and I rewrote it using NUnit.Mocks and wrapped it into an implementation of Http
             set { _user = value; }
         }
     }
+```
 
 Now mocking Controller.User is as easy as this:
 
+``` csharp
     // create an instance of RequestContext using MockHttpContext.
     RequestContext requestContext =
         new RequestContext(new MockHttpContext(), new RouteData());
     
     // initialize the controller's ControllerContext
     _controller.ControllerContext = new ControllerContext(requestContext, _controller);
+```

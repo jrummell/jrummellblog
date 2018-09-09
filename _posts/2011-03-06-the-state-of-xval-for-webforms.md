@@ -12,6 +12,7 @@ I’ve been neglecting [xVal for WebForms](http://xvalwebforms.codeplex.com/) fo
 
 I think there are a few directions the project could take. The more traditional WebForms approach would be to simply generate the standard System.Web.Web.UI validation controls based on a model’s DataAnnotation attributes. I’m a fan of this approach as it makes a lot of sense to WebForm developers. For example, consider the following model:
 
+``` csharp
     public class Booking
     {
         [Required(ErrorMessage = "Client Name is required.")]
@@ -19,16 +20,19 @@ I think there are a few directions the project could take. The more traditional 
 
         [Range(1, 20, ErrorMessage = "Number of Guests must be between 1 and 20.")]
         private public int NumberOfGuests { get; set; }
-    }
+    }
+```
 
 The generated validators would be very similar to the following:
 
+``` xml
     <asp:RangeValidator ID="valNumberOfGuests" runat="server" Display="Dynamic"
     ControlToValidate="txtNumberOfGuests" Type="Integer" MinimumValue="1" MaximumValue="20"
     ErrorMessage="Number of Guests must be between 1 and 20."/>
 
     <asp:RequiredFieldValidator ID="valClientName" runat="server" Display="Dynamic"
     ControlToValidate="txtClientName" ErrorMessage="Client Name is required." />
+```
 
 The other option is to find a way use the ASP.NET MVC validation bits with WebForms. ASP.NET MVC 2 uses the MicrosoftAjax library, while ASP.NET MVC 3 introduced unobtrusive validation with jQuery Validate. This approach would work a lot like the current project, but it would utilize MVC instead of xVal. I have to admit I’m not thrilled about referencing System.Web.Mvc in a WebForms project.
 

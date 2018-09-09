@@ -14,6 +14,7 @@ I first tried an FBML Canvas app built with ASP.NET MVC and the MS Facebook SDK,
 
 Now that I was in familiar territory, I threw a wrench in the mix by using WCF web services instead of asmx. Not that WCF is better/worse than asmx, I had just never used them before. I had some help from Rick Strahl’s blog post called jQuery AJAX calls to a WCF REST Service. This is was no easy task for me, so I’ll list all of the details here in case anyone else is struggling. First, here is the service interface:
 
+``` csharp
     [ServiceContract]
     public interface IAchievementService
     {
@@ -37,11 +38,13 @@ Now that I was in familiar territory, I threw a wrench in the mix by using WCF w
       [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
       bool PublishLatestAchievements(long facebookUserId, string steamUserId);
     }
+```
 
 Note the WCF attributes: ServiceContract and OperationContract. These kind of correspond to WebService and WebMethod in an asmx web service. I say kind of because a WCF service doesn’t have to be a web service, but for this example it is. The WebInvoke attribute tells ASP.NET how the client will interact with the service. The method is POST, and both the request and the response will be json. The WrappedRequest BodyStyle is what allows you to send a json JavaScript object to a service method that gets de-serialized into parameters. If you were to omit this, you’d have to create a class for your parameters and change the method signature to accept one instance of that class. Another thing to note is that I’m returning List<T> instead of IEnumerable<T>. This is because there seems to be a serialization bug with WCF and IEnumerable<T>.
 
 The implementation of IAchievementService is very straight forward. It is simply hands all of the heavy lifting to a manager class that uses LINQ to SQL to communicate with the database. The next part is the WCF configuration in web.config.
 
+``` xml
     <system.serviceModel>
       <services>
         <service behaviorConfiguration="SteamAchievements.Services.AchievementServiceBehavior" name="SteamAchievements.Services.AchievementService">
@@ -68,11 +71,13 @@ The implementation of IAchievementService is very straight forward. It is simply
         </baseAddressPrefixFilters>
       </serviceHostingEnvironment>
     </system.serviceModel>
+```
 
 This is fairly standard except for a few things. I’m using the webHttp endpoint behavior to enable AJAX and I also had to add a baseAddressPrefixFilter to get it working on my web host.
 
 Finally, here is the JavaScript that calls the WCF service methods:
 
+``` js
     var parameters = { "steamUserId": steamUserId, "gameId": gameId };
     callAjax("GetAchievements", parameters, ondone);
 
@@ -122,6 +127,7 @@ Finally, here is the JavaScript that calls the WCF service methods:
             }
         });
     }
+```
 
 This is basically the same snippet from Rick Strahl (see link above) that I’ve modified slightly to fit my application.
 

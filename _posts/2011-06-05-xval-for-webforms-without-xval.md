@@ -10,12 +10,14 @@ tags: xval-webforms
 
 I’ve been working on [xVal for WebForms](http://xvalwebforms.codeplex.com/) without xVal in the [jQuery.Validate](http://xvalwebforms.codeplex.com/SourceControl/list/changesets?branch=jQuery.Validate) branch. So far I’ve got basic server and client side validation for most data annotations validation attributes and server side validation for [IValidatableObject](http://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.ivalidatableobject.aspx) implementers. The only challenging part so far was understanding how to serialize the validation rules for the jQuery Validate [add method](http://docs.jquery.com/Plugins/Validation/rules).
 
+``` js
     $("#txtClientName").rules("add", { 
         required: true, 
         minlength: 5, 
         messages: { required: "Client name is required.", 
                     minlength: "Client name must be at least 5 characters." } 
     });
+```
 
 I finally decided to implement JavaScriptConverter, which is used with JavaScriptSerializer. The Serialize method is what takes the Rule collection and converts it into two separate dictionaries, one for rules and one for messages. This allows the JavaScriptSerializer to properly serialize the dictionaries for the add method options parameter.
 

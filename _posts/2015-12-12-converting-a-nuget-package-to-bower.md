@@ -51,6 +51,7 @@ Here's a simple, real world comparison of nuget vs bower for [bootstrap.message]
 
 Sample .nuspec (NuGet):
 
+``` xml
     <?xml version="1.0"?>
     <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
         <metadata>
@@ -73,10 +74,11 @@ Sample .nuspec (NuGet):
             <file src="dist\js\*.js" target="content\Scripts"/>
         </files>
     </package>
-
+```
 
 Sample bower.json (Bower):
 
+``` json
     {
         "name": "bootstrap.message",
         "description": "A simple jQuery plugin that uses the Bootstrap alert css classes to display info and error messages.",
@@ -106,8 +108,9 @@ Sample bower.json (Bower):
         "**/.*",
         "node_modules",
         "bower_components"
-    ]
+        ]
     }
+```
 
 ### Publishing
 

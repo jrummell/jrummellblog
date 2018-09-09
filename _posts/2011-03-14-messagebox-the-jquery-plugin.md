@@ -15,6 +15,7 @@ Here’s an example:
 
 Usage:
 
+``` html
     <div id="infoMessage"> 
     	To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website"> http://asp.net/mvc</a>. 
     </div>
@@ -28,6 +29,7 @@ Usage:
     			message: "Oops! An enexpected error has occurred.", dismiss: false }); 
     	}); 
     </script>
+```
 
 The message function accepts the following optional parameters:
 

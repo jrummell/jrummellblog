@@ -15,6 +15,7 @@ Since my [last post](http://john.rummell.info/john/blog/post/xVal-with-WebForms.
 
 This is the model we’ll be using (you should recognize it from the xVal tutorial):
 
+``` csharp
     public class Booking
     {
         [Required]
@@ -28,12 +29,13 @@ This is the model we’ll be using (you should recognize it from the xVal tutori
         [DataType(DataType.Date)]
         public DateTime ArrivalDate { get; set; }
     }
-
+```
 
 ## Form
 
 And here is the form:
 
+``` xml
     <asp:ValidationSummary ID="valSummary" runat="server" />
     <label for="txtClientName">
       Your name:
@@ -48,11 +50,13 @@ And here is the form:
     </label>
     <asp:TextBox ID="txtArrivalDate" runat="server" />
     <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
+```
 
 ## ModelValidator
 
 My first try at validation was adding a validator control for each input field. After playing with it a bit, I decided that it would be better to have one validator for the entire model. This control defines the model’s type (ModelType), and then maps each property (PropertyName) to an input control (ControlToValidate).
 
+``` xml
     <val:ModelValidator ID="valBooking" runat="server" ModelType="xVal.WebForms.Demo.Booking, xVal.WebForms.Demo">
       <ModelProperties>
         <val:ModelProperty PropertyName="ClientName" ControlToValidate="txtClientName" />
@@ -60,7 +64,7 @@ My first try at validation was adding a validator control for each input field. 
         <val:ModelProperty PropertyName="ArrivalDate" ControlToValidate="txtArrivalDate" />
       </ModelProperties>
     </val:ModelValidator>
-
+```
 
 ## ControlToValidate
 

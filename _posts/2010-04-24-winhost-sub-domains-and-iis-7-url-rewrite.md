@@ -12,6 +12,7 @@ WinHost doesn’t automatically redirect your sub-domains; they leave that up to
 
 WinHost allows you to manage IIS7 through the Remote IIS Manager and includes the URL Rewrite Module, so I thought I’d give that a try. My first attempt was to rewrite http://john.rummell.info to /john using the information provided by Ben Powell on his blog:
 
+``` xml
     <rule name="john.rummell.info" stopProcessing="true">
         <match url="(.*)" />
             <conditions>
@@ -19,9 +20,11 @@ WinHost allows you to manage IIS7 through the Remote IIS Manager and includes th
             </conditions>
         <action type="Rewrite" url="john/{R:1}" />
     </rule>
+```
 
 This works if you use only absolute paths, but it broke all of my relative css links and form actions. This is because even though you never see /john in the url, Request.ApplicationPath is still /john/somepage.aspx. I decided that this wasn’t right path to take. Then I tried a similar rule that would redirect instead of rewrite:
 
+``` xml
     <rule name="john.rummell.info" stopProcessing="true">
         <match url="(.*)" />
         <conditions logicalGrouping="MatchAll">
@@ -30,6 +33,7 @@ This works if you use only absolute paths, but it broke all of my relative css l
         </conditions>
         <action type="Redirect" url="http://john.rummell.info/john/{R:1}" />
     </rule>
+```
 
 This will redirect all requests from http://john.rummell.info to http://john.rummell.info/john. The first input is the same as the rewrite rule. The second input makes sure that the path doesn’t already start with /john. This prevents it from redirecting infinitely (/john/john/john/john etc). Its not ideal since the sub domain appears in the url twice, but at least its guaranteed to always be that way, unlike GoDaddy.
 
