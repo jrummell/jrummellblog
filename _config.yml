@@ -9,7 +9,7 @@ page_paths:
   - archive.md
   - projects.md
 disqus:
-  - shortname: jrummell
+  shortname: jrummell
 defaults:
   -
     scope:
