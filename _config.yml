@@ -1,6 +1,10 @@
 theme: jekyll-theme-slate
 title: jrummell.ToString()
 description: Another .NET blog
+google_analytics: UA-20232883-1
+comments: true
+disqus:
+  - shortname: jrummell
 defaults:
   -
     scope:
