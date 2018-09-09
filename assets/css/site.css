@@ -1,5 +1,14 @@
+#header_wrap {
+    background-image: url(/assets/images/background.jpg);
+    background-color: #222;
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center top;
+}
+
 .page-link {
     margin-right: 1em;
+    color: white;
 }
 
 #disqus_thread {

@@ -4,7 +4,7 @@ description: Another .NET blog
 google_analytics: UA-20232883-1
 comments: true
 twitter_username: jrummell
-github_username:  jrumell
+github_username:  jrummell
 page_paths: [archive.md, projects.md]
 disqus_shortname: jrummell
 defaults:
