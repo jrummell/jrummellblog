@@ -1,5 +1,6 @@
 ---
 permalink: /xval-with-webforms
+redirect_from: /xval-with-webforms/
 title: xVal with WebForms 
 layout: post
 date: 2009-07-15 22:32:00

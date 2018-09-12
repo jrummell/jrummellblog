@@ -1,5 +1,6 @@
 ---
 permalink: /xval-with-webforms-part-2
+redirect_from: /xval-with-webforms-part-2/
 title: xVal with WebForms Part 2 
 layout: post
 date: 2009-08-12 22:17:01

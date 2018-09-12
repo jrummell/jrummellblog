@@ -1,5 +1,6 @@
 ---
 permalink: /converting-datetime-to-string-and-back
+redirect_from: /converting-datetime-to-string-and-back/
 title: Converting DateTime to String and back 
 layout: post
 date: 2007-05-21 11:32:00

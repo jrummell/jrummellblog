@@ -1,5 +1,6 @@
 ---
 permalink: /confluence-universal-wiki-converter-uwc-for-screwturn
+redirect_from: /confluence-universal-wiki-converter-uwc-for-screwturn/
 title: Confluence Universal Wiki Converter (UWC) for ScrewTurn
 date: 2010-09-02 10:44:46
 published: true

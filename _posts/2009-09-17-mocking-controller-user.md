@@ -1,5 +1,6 @@
 ---
 permalink: /mocking-controller-user
+redirect_from: /mocking-controller-user/
 title: Mocking Controller.User 
 layout: post
 date: 2009-09-17 21:26:42

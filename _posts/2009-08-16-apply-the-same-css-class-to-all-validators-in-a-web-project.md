@@ -1,5 +1,6 @@
 ---
 permalink: /apply-the-same-css-class-to-all-validators-in-a-web-project
+redirect_from: /apply-the-same-css-class-to-all-validators-in-a-web-project/
 title: Apply the same CSS class to all validators in a web project 
 layout: post
 date: 2009-08-16 14:33:01

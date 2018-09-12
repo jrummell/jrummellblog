@@ -1,5 +1,6 @@
 ---
 permalink: /xval-for-webforms-the-future
+redirect_from: /xval-for-webforms-the-future/
 title: xVal for WebForms - the Future
 date: 2011-05-03 15:47:01
 published: true

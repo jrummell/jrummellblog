@@ -1,5 +1,6 @@
 ---
 permalink: /how-i-bought-home-theater-audio-for-half-price
+redirect_from: /how-i-bought-home-theater-audio-for-half-price/
 title: How I bought home theater audio for half price 
 layout: post
 date: 2012-03-04 16:02:45

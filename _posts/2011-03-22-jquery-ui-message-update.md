@@ -1,5 +1,6 @@
 ---
 permalink: /jquery-ui-message-update
+redirect_from: /jquery-ui-message-update/
 title: jQuery UI Message Update 
 layout: post
 date: 2011-03-22 23:05:41

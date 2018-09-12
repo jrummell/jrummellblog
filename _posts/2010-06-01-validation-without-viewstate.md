@@ -1,5 +1,6 @@
 ---
 permalink: /validation-without-viewstate
+redirect_from: /validation-without-viewstate/
 title: Validation without ViewState 
 layout: post
 date: 2010-06-01 14:35:21

@@ -1,6 +1,6 @@
 ---
-redirect_from: /using-asp-net-to-open-a-new-browser-window-part-i/
 permalink: /using-asp-net-to-open-a-new-browser-window-part-i
+redirect_from: /using-asp-net-to-open-a-new-browser-window-part-i/
 title: Using ASP.Net to open a new browser window – Part I
 date: 2007-02-19 23:15:00
 published: true

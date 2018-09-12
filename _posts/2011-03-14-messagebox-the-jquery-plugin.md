@@ -1,5 +1,6 @@
 ---
 permalink: /messagebox-the-jquery-plugin
+redirect_from: /messagebox-the-jquery-plugin/
 title: MessageBox - The jQuery Plugin
 date: 2011-03-14 15:08:34
 published: true

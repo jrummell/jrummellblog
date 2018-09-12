@@ -1,5 +1,6 @@
 ---
 permalink: /a-sitemapprovider-for-static-web-sites
+redirect_from: /a-sitemapprovider-for-static-web-sites/
 title: A SiteMapProvider for Static Web Sites 
 layout: post
 date: 2007-08-03 20:34:00

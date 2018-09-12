@@ -1,5 +1,6 @@
 ---
-permalink: /using-asp-net-to-open-a-new-browser-window-part-ii-the-web-control
+permalink: /using-asp-net-to-open-a-new-browser-window-part-ii-the-web-cont
+redirect_from: /using-asp-net-to-open-a-new-browser-window-part-ii-the-web-cont/
 title: Using ASP.Net to open a new browser window – Part II, the web control
 date: 2007-02-20 13:24:00
 published: true

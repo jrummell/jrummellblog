@@ -1,5 +1,6 @@
 ---
 permalink: /winhost-sub-domains-and-iis-7-url-rewrite
+redirect_from: /winhost-sub-domains-and-iis-7-url-rewrite/
 title: WinHost, Sub-Domains, and IIS 7 URL Rewrite
 date: 2010-04-24 18:31:40
 published: true

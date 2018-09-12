@@ -1,5 +1,6 @@
 ---
 permalink: /google-chrome-has-extensions
+redirect_from: /google-chrome-has-extensions/
 title: Google Chrome has Extensions 
 layout: post
 date: 2010-01-26 18:14:00
