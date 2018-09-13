@@ -12,11 +12,11 @@ tags: css validation
 I recently had to add a CSS class to all validators in an ASP.NET web application. I started with the theme’s [skin](http://msdn.microsoft.com/en-us/library/ykzx33wh.aspx) file:
 
 ``` xml
-<asp:CompareValidatorrunat="server"CssClass="error"/>
-<asp:CustomValidatorrunat="server"CssClass="error"/>
-<asp:RequiredFieldValidatorrunat="server"CssClass="error"/>
-<belCommon:ZipCodeValidatorrunat="server"CssClass="error"/>
-<belCommon:PhoneNumberValidatorrunat="server"CssClass="error"/>
+<asp:CompareValidatorrunat="server" CssClass="error"/>
+<asp:CustomValidatorrunat="server" CssClass="error"/>
+<asp:RequiredFieldValidatorrunat="server" CssClass="error"/>
+<belCommon:ZipCodeValidatorrunat="server" CssClass="error"/>
+<belCommon:PhoneNumberValidatorrunat="server" CssClass="error"/>
 ```
 
 But what if I decide to use another validator down the road? I would have to remember to add it to the skin. Knowing that I was bound to forget, I sought out another method. After doing some digging, I found that ASP.NET generates a JavaScript variable called Page_Validators. This is an array of all the validator span elements on the current page. Now that I have access to the spans, I could write a script in the site’s [Master Page](http://msdn.microsoft.com/en-us/library/wtxbf3hh.aspx) to apply the class:
