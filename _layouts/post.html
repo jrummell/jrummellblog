@@ -16,7 +16,9 @@ layout: default
     </p>
     {%- if page.tags.length > 0 -%}
     <div itemprop="tags">
-      {{ page.tags }}
+      {% for tag in page.tags %}
+        <a class="tag-link" href="/tags#{{ t | downcase }}">{{ t | downcase }}</a>
+      {% endfor %}
     </div>
     {%- endif -%}
   </header>
