@@ -9,7 +9,7 @@ tags: validation xval-webforms
 ---
 
 
-Since my [last post](http://john.rummell.info/john/blog/post/xVal-with-WebForms.aspx), I’ve completely rethought and re-implemented my take on [xVal](http://xval.codeplex.com/) for WebForms. If you’re not familiar with xVal, stop now and read the [tutorial](http://blog.codeville.net/2009/01/10/xval-a-validation-framework-for-aspnet-mvc/). Now that you’re back, lets talk about xVal and WebForms.
+Since my [last post](/xval-with-webforms), I’ve completely rethought and re-implemented my take on [xVal](http://xval.codeplex.com/) for WebForms. If you’re not familiar with xVal, stop now and read the [tutorial](http://blog.codeville.net/2009/01/10/xval-a-validation-framework-for-aspnet-mvc/). Now that you’re back, lets talk about xVal and WebForms.
 
 
 ## Model
