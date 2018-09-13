@@ -21,7 +21,7 @@ title: Tags
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-{{ t | downcase }}
+<h3 id="{{ t | downcase }}">{{ t | downcase }}</h3>
 <ul>
 {% for post in posts %}
   {% if post.tags contains t %}
