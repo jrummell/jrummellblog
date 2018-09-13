@@ -5,11 +5,11 @@ title: xVal with WebForms
 layout: post
 date: 2009-07-15 22:32:00
 published: true
-tags: validation xval-webforms
+tags: [validation, xval-webforms]
 ---
 
 
-**Update**: See [xVal with WebForms Part 2](http://john.rummell.info/john/blog/post/xVal-with-WebForms-Part-2.aspx) for a better implementation.
+**Update**: See [xVal with WebForms Part 2](/xval-with-webforms-part-2) for a better implementation.
 
 
 ## What is xVal and why would anyone want to use it?
@@ -20,12 +20,12 @@ tags: validation xval-webforms
 
 See the [CodePlex](http://xval.codeplex.com/) page for more information.
 
-Basically, what xVal does, is take your validation rules and perform server and client side validation based on those rules. That means you don’t have to duplicate model validation at the page level. Now you’re probably thinking, “Isn’t it for MVC?”.It is. But I, and at least [two others](http://xval.codeplex.com/Thread/View.aspx?ThreadId=60906), would like to take advantage of xVal’s features in traditional ASP.NET WebForm projects.
+Basically, what xVal does, is take your validation rules and perform server and client side validation based on those rules. That means you don’t have to duplicate model validation at the page level. Now you’re probably thinking, “Isn’t it for MVC?”. It is. But I, and at least [two others](http://xval.codeplex.com/Thread/View.aspx?ThreadId=60906), would like to take advantage of xVal’s features in traditional ASP.NET WebForm projects.
 
 
 ## Getting it to work with WebForms
 
-I finally found some time last night to see what it would take to get xVal working in an ASP.NET Web Application Project.After a few hours I had something. I only needed to add two classes on top of xVal, DataAnnotationsValidationRunner and ModelValidator.
+I finally found some time last night to see what it would take to get xVal working in an ASP.NET Web Application Project. After a few hours I had something. I only needed to add two classes on top of xVal, DataAnnotationsValidationRunner and ModelValidator.
 
     public static class DataAnnotationsValidationRunner
     {
@@ -84,7 +84,7 @@ This is based on the implementation in the [xVal demo](http://blog.codeville.net
         }
     }
 
-This is the ASP.NET WebForms version of <%= Html.ClientSideValidation<Booking>(“booking”) %>, an implementation of [BaseValidator](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.basevalidator.aspx). It uses [ValidationInfo](http://xval.codeplex.com/sourcecontrol/changeset/view/21650?projectName=xval#260910) for rendering the client validation script and DataAnnotationsValidationRunner for the server side validation.
+This is the ASP.NET WebForms version of `<%= Html.ClientSideValidation<Booking>(“booking”) %>`, an implementation of [BaseValidator](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.basevalidator.aspx). It uses [ValidationInfo](http://xval.codeplex.com/sourcecontrol/changeset/view/21650?projectName=xval#260910) for rendering the client validation script and DataAnnotationsValidationRunner for the server side validation.
 
 You can use it like this:
 
