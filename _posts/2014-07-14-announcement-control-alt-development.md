@@ -13,7 +13,7 @@ tags:
 ---
 
 
-[![Control Alt Development](http://res.cloudinary.com/jrummell/image/upload/v1437489225/logo-1600x619_wbpvzl.png)](http://www.ctrlaltdevelopment.com/)
+[![Control Alt Development](https://res.cloudinary.com/jrummell/image/upload/v1437489225/logo-1600x619_wbpvzl.png)](http://www.ctrlaltdevelopment.com/)
 
 Last week my partners and I launched a new custom software development company. Here is our official announcement:
 
