@@ -11,6 +11,10 @@
     color: white;
 }
 
+.tag-link {
+    margin-right: 1em;
+}
+
 #disqus_thread {
     margin-top: 1em;
 }
