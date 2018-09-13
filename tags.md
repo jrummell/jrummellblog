@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /xval-webforms
+permalink: /tags
 redirect_from:
  - /tag
  - /tag/
