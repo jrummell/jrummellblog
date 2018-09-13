@@ -1,6 +1,11 @@
 ---
 permalink: /announcement-control-alt-development
-redirect_from: /announcement-control-alt-development/
+redirect_from: 
+  - /announcement-control-alt-development/
+  - /blog/2014/04/rummell-web-solutions/
+  - /blog/rummell-web-solutions/
+  - /rummell-web-solutions/
+  - /rummell-web-solutions
 title: Announcement - Control Alt Development
 date: 2014-07-14 20:28:31
 published: true
