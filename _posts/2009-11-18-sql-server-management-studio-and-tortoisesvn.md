@@ -3,6 +3,7 @@ permalink: /sql-server-management-studio-and-tortoisesvn
 redirect_from: 
     - /sql-server-management-studio-and-tortoisesvn/
     - /blog/2009/11/sql-server-management-studio-and-tortoisesvn/
+    - /blog/index.php/2009/11/sql-server-management-studio-and-tortoisesvn/
 title: SQL Server Management Studio and TortoiseSVN 
 layout: post
 date: 2009-11-18 23:23:17
