@@ -52,64 +52,64 @@ Here's a simple, real world comparison of nuget vs bower for [bootstrap.message]
 Sample .nuspec (NuGet):
 
 ``` xml
-    <?xml version="1.0"?>
-    <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-        <metadata>
-            <id>Bootstrap.Message</id>
-            <version>$version$</version>
-            <authors>John Rummell</authors>
-            <owners>John Rummell</owners>
-            <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
-            <projectUrl>https://github.com/jrummell/bootstrap.message</projectUrl>
-            <requireLicenseAcceptance>false</requireLicenseAcceptance>
-            <description>
-            A simple jQuery plugin that uses the Bootstrap alert css classes to display info and error messages.
-            </description>
-            <tags>jquery bootstrap plugin message</tags>
-            <dependencies>
-                <dependency id="bootstrap" version="3.3.6" />
-            </dependencies>
-        </metadata>
-        <files>
-            <file src="dist\js\*.js" target="content\Scripts"/>
-        </files>
-    </package>
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Bootstrap.Message</id>
+        <version>$version$</version>
+        <authors>John Rummell</authors>
+        <owners>John Rummell</owners>
+        <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+        <projectUrl>https://github.com/jrummell/bootstrap.message</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>
+        A simple jQuery plugin that uses the Bootstrap alert css classes to display info and error messages.
+        </description>
+        <tags>jquery bootstrap plugin message</tags>
+        <dependencies>
+            <dependency id="bootstrap" version="3.3.6" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="dist\js\*.js" target="content\Scripts"/>
+    </files>
+</package>
 ```
 
 Sample bower.json (Bower):
 
 ``` json
-    {
-        "name": "bootstrap.message",
-        "description": "A simple jQuery plugin that uses the Bootstrap alert css classes to display info and error messages.",
-        "authors": [
-            {
-                "name": "John Rummell",
-                "homepage": "http://jrummell.com"
-            }
-        ],
-        "main": "bootstrap.message.js",
-        "moduleType": [],
-        "license": "http://www.gnu.org/licenses/gpl.html",
-        "repository": {
-            "type": "git",
-            "url": "https://github.com/jrummell/bootstrap.message.git"
-        },
-        "keywords": [
-            "bootstrap",
-            "message",
-            "jquery",
-            "plugin"
-        ],
-        "dependencies": {
-            "bootstrap": "^3.3.6"
-        },
-        "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components"
-        ]
-    }
+{
+    "name": "bootstrap.message",
+    "description": "A simple jQuery plugin that uses the Bootstrap alert css classes to display info and error messages.",
+    "authors": [
+        {
+            "name": "John Rummell",
+            "homepage": "http://jrummell.com"
+        }
+    ],
+    "main": "bootstrap.message.js",
+    "moduleType": [],
+    "license": "http://www.gnu.org/licenses/gpl.html",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jrummell/bootstrap.message.git"
+    },
+    "keywords": [
+        "bootstrap",
+        "message",
+        "jquery",
+        "plugin"
+    ],
+    "dependencies": {
+        "bootstrap": "^3.3.6"
+    },
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+    ]
+}
 ```
 
 ### Publishing
