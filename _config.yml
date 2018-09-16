@@ -15,3 +15,4 @@ defaults:
       layout: "default"
 plugins:
   - jekyll-redirect-from
+repository: jrummell/jrummell.github.io
