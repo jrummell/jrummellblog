@@ -19,6 +19,7 @@ defaults:
       type: "posts"
     values:
       permalink: /:slug
+      layout: post
 plugins:
   - jekyll-redirect-from
 repository: jrummell/jrummell.github.io

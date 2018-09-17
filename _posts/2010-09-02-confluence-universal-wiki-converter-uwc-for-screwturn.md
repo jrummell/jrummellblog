@@ -7,8 +7,7 @@ published: true
 tags: confluence-uwc wiki
 ---
 
-
-My [company](http://www.beldenbrick.com) recently started a corporate wiki. We initially used [ScrewTurn](http://www.screwturn.eu/), an excellent open source ASP.NET application. It worked great for our department, but it wasn’t taking off for the rest of the company. Non-technical users just couldn’t get wiki markup and weren’t able to manage edits with the visual editor. So we turned to [Confluence](http://www.atlassian.com/software/confluence/), an enterprise class commercial wiki. I won’t get into a feature comparison here. There are plenty of [other](http://www.wikimatrix.org/) [sites](http://en.wikipedia.org/wiki/Comparison_of_wiki_software) devoted to that.
+My company recently started a corporate wiki. We initially used [ScrewTurn](http://www.screwturn.eu/), an excellent open source ASP.NET application. It worked great for our department, but it wasn’t taking off for the rest of the company. Non-technical users just couldn’t get wiki markup and weren’t able to manage edits with the visual editor. So we turned to [Confluence](http://www.atlassian.com/software/confluence/), an enterprise class commercial wiki. I won’t get into a feature comparison here. There are plenty of [other](http://www.wikimatrix.org/) [sites](http://en.wikipedia.org/wiki/Comparison_of_wiki_software) devoted to that.
 
 Since we had been using ScrewTurn for several months, we had a few hundred pages that we needed to migrate to Confluence. We hoped to find a utility to take care of the migration, but we were unable to find one. So in the end, I wrote my own UWC implementation for ScrewTurn.
 
