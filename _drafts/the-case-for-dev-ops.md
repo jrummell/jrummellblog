@@ -1,7 +1,5 @@
 ---
-title: The Case for DevOps 
-layout: post
-date: 2018-10-01 01:06:35
+title: The Case for DevOps
 published: true
 tags: devops ci
 ---
