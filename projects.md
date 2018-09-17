@@ -1,7 +1,7 @@
 ---
 permalink: /projects
 redirect_from: /projects/
-title: Open Source 
+title: Open Source Projects
 layout: default
 date: 2010-12-13 15:08:36
 published: true
