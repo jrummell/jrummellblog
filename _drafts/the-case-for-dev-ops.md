@@ -1,9 +1,8 @@
 ---
-permalink: the-case-for-dev-ops
 title: The Case for DevOps 
 layout: post
 date: 2018-10-01 01:06:35
-published: false
+published: true
 tags: devops ci
 ---
 
