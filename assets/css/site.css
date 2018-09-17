@@ -6,13 +6,16 @@
     background-repeat: no-repeat;
 }
 
+.small {
+    font-size: 80%;
+}
+
 .page-link {
     margin-right: 1em;
     color: white;
 }
 
 .tag-link {
-    margin-right: 1em;
 }
 
 #disqus_thread {
