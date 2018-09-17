@@ -45,7 +45,7 @@ tags:
         </fieldset>
     </div>
 
- 
+  
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
         txtRenderedHtml.Text = divForm.GetRenderedHtml();
@@ -150,6 +150,6 @@ To capture this as a string, just add a call to GetRenderedHtml:
         //TODO: send email
     }
 
- 
+  
 
  (The form style is a slight variation of [Janko’s tutorial](http://www.jankoatwarpspeed.com/post/2008/07/27/Enhance-your-input-fields-with-simple-CSS-tricks.aspx))

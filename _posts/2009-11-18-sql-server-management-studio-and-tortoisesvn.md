@@ -8,7 +8,7 @@ title: SQL Server Management Studio and TortoiseSVN
 layout: post
 date: 2009-11-18 23:23:17
 published: true
-tags: SQL svn
+tags: sql svn
 ---
 
 

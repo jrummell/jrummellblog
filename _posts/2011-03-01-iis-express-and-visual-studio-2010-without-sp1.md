@@ -15,7 +15,7 @@ Here’s how you can integrate [IIS Express](http://learn.iis.net/page.aspx/868/
 
 You can use this by selecting your web project in the solution explorer and then running the tool.
 
-The second way is to use a configuration file. This is for when you needsomethingdifferent than the default settings. For example, if you need to enable PHP. Save your applicationHost.config in the root of your project file before running this:
+The second way is to use a configuration file. This is for when you need something different than the default settings. For example, if you need to enable PHP. Save your applicationHost.config in the root of your project file before running this:
 
 [![](http://res.cloudinary.com/jrummell/image/upload/h_296,w_300/v1437489241/config_hne7fs.png "IIS Express with Config")](http://res.cloudinary.com/jrummell/image/upload/v1437489241/config_hne7fs.png)
 

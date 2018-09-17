@@ -9,7 +9,7 @@ tags: javascript
 
 Update: If you are curious as to why MS added the .d attribute, find out why at [Encosia](http://encosia.com/2009/02/10/a-breaking-change-between-versions-of-aspnet-ajax/).
 
-I was very frustrated the other day trying to figure out why a jQuery ajax call worked on my dev box but not on the server.It looked something like this:
+I was very frustrated the other day trying to figure out why a jQuery ajax call worked on my dev box but not on the server. It looked something like this:
 
     json(_serviceUrl, "{}", true,
         function(result) { fillSelect($("#ddlDepartment")[0], result.d); },

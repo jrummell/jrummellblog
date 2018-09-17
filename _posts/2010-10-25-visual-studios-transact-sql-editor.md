@@ -4,7 +4,7 @@ redirect_from: /visual-studios-transact-sql-editor/
 title: Visual Studio’s Transact-SQL Editor
 date: 2010-10-25 15:57:49
 published: true
-tags: SQL
+tags: sql
 ---
 
 
