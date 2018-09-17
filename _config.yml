@@ -22,4 +22,5 @@ defaults:
       layout: post
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
 repository: jrummell/jrummell.github.io
