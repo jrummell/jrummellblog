@@ -8,6 +8,14 @@ published: true
 tags: 
 ---
 
+### Bitbucket Mercurial to Git Migration
+
+[Bitbucket Mercurial to Git Migration](https://github.com/jrummell/bitbucket-hg-migration) has powershell scripts to migrate from hg to git on Bitbucket.
+
+### Ghost to GitHub Pages Converter
+
+[Ghost to GitHub Pages Converter](https://github.com/jrummell/GhostToGitHubPagesConverter) converts a Ghost 0.x json export into Jekyll compatible markdown files for GitHub pages.
+
 ### jQuery Message Plugins
 
 The [jQuery Kendo Message](https://github.com/jrummell/kendo.message) and [jQuery Bootstrap Message](https://github.com/jrummell/bootstrap.message) plugins allow you to easily display consistent styled messages.
