@@ -7,14 +7,14 @@ twitter_username: jrummell
 github_username:  jrummell
 page_paths: [archive.md, tags.md, projects.md]
 disqus_shortname: jrummell
-exclude: ["init.ps1", "run.ps1", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+exclude: ["init.ps1", "run.ps1", "update.ps1", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-  - 
+  -
     scope:
       type: "posts"
     values:
