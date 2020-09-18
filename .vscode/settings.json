@@ -1,5 +1,12 @@
 {
     "cSpell.words": [
-        "Bitbucket"
-    ]
+        "Bitbucket",
+        "Gemfile",
+        "jrummell"
+    ],
+    "html.format.enable": true,
+    "prettier.useEditorConfig": true,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.bracketSpacing": true,
+    "prettier.printWidth": 120
 }

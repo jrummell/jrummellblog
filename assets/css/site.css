@@ -1,7 +1,7 @@
 #header_wrap {
     background-image: url(/assets/images/background.jpg);
-    background-color: #649FE1;
-    background-attachment: fixed; 
+    background-color: #649fe1;
+    background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
 }
@@ -15,9 +15,26 @@
     color: white;
 }
 
-.tag-link {
-}
-
 #disqus_thread {
     margin-top: 1em;
+}
+
+@media screen and (min-width: 700px) {
+    /* make sure the header text is on the canyon, not me */
+    #header_wrap .inner {
+        padding-left: 100px;
+        max-width: 750px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    /* make sure the header text is on the canyon, not me */
+    #header_wrap .inner {
+        padding-left: 150px;
+    }
+}
+
+/* we have big monitors now */
+.inner {
+    max-width: 900px;
 }
