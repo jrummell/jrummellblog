@@ -1,40 +1,30 @@
-#header_wrap {
-    background-image: url(/assets/images/background.jpg);
-    background-color: #649fe1;
-    background-attachment: fixed;
-    background-position: center top;
+.bg-wrapper {
+    background-image: linear-gradient(to bottom, transparent 0%, #649fe1 100%),
+        url(https://res.cloudinary.com/jrummell/image/upload/v1437489305/canyon-background.jpg);
+    background-position: center middle;
     background-repeat: no-repeat;
+}
+
+.bg-wrapper .container {
+    background-color: white;
+}
+
+#main-content {
+    margin-top: 56px;
+}
+
+.jumbotron {
+    padding: 24px;
+}
+
+article {
+    padding-bottom: 1em;
 }
 
 .small {
     font-size: 80%;
 }
 
-.page-link {
-    margin-right: 1em;
-    color: white;
-}
-
 #disqus_thread {
     margin-top: 1em;
-}
-
-@media screen and (min-width: 700px) {
-    /* make sure the header text is on the canyon, not me */
-    #header_wrap .inner {
-        padding-left: 100px;
-        max-width: 750px;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    /* make sure the header text is on the canyon, not me */
-    #header_wrap .inner {
-        padding-left: 150px;
-    }
-}
-
-/* we have big monitors now */
-.inner {
-    max-width: 900px;
 }
