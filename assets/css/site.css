@@ -1,46 +1,30 @@
 .bg-wrapper {
     background-image: linear-gradient(to bottom, transparent 0%, #649fe1 100%),
-        url(/assets/images/background.jpg);
-    background-position: center top;
+        url(https://res.cloudinary.com/jrummell/image/upload/v1437489305/canyon-background.jpg);
+    background-position: center middle;
     background-repeat: no-repeat;
 }
 
-.bg-wrapper .outer {
-    background-color: transparent !important;
+.bg-wrapper .container {
+    background-color: white;
 }
 
-.bg-wrapper #header_wrap.outer {
-    background: transparent !important;
+#main-content {
+    margin-top: 56px;
 }
 
-.bg-wrapper #header_wrap .inner,
-.bg-wrapper #footer_wrap .inner {
-    background: linear-gradient(to top, #373737, #212121);
-    padding-top: 30px;
+.jumbotron {
+    padding: 24px;
 }
 
-.bg-wrapper #main_content_wrap .inner {
-    background: #f2f2f2;
-}
-
-#main_content_wrap.outer {
-    border: none;
+article {
+    padding-bottom: 1em;
 }
 
 .small {
     font-size: 80%;
 }
 
-.page-link {
-    margin-right: 1em;
-    color: white;
-}
-
 #disqus_thread {
     margin-top: 1em;
-}
-
-/* we have big monitors now */
-.inner {
-    max-width: 900px;
 }

@@ -1,6 +1,6 @@
 ---
 permalink: /announcement-control-alt-development
-redirect_from: 
+redirect_from:
   - /announcement-control-alt-development/
   - /blog/2014/04/rummell-web-solutions/
   - /blog/rummell-web-solutions/
@@ -9,11 +9,11 @@ redirect_from:
 title: Announcement - Control Alt Development
 date: 2014-07-14 20:28:31
 published: true
-tags: 
+tags:
 ---
 
 
-[![Control Alt Development](https://res.cloudinary.com/jrummell/image/upload/v1437489225/logo-1600x619_wbpvzl.png)](http://www.ctrlaltdevelopment.com/)
+[<img src="https://res.cloudinary.com/jrummell/image/upload/c_scale,w_1110/v1437489225/logo-1600x619_wbpvzl.png" class="img-fluid">](http://www.ctrlaltdevelopment.com/)
 
 Last week my partners and I launched a new custom software development company. Here is our official announcement:
 
