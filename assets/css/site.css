@@ -15,9 +15,11 @@
 
 .jumbotron {
     padding: 24px;
+    margin-bottom: 1rem;
 }
 
 article {
+    padding-top: 1em;
     padding-bottom: 1em;
 }
 
