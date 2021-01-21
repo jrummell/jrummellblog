@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /tags
 redirect_from:
  - /tag
